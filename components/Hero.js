@@ -135,7 +135,7 @@ export default function Hero() {
                         {t('hero.title')}
                     </h1>
                     <div className="flex flex-col md:flex-row items-center justify-between w-full border-t border-white/20 pt-6 mt-6">
-                        <p className="text-sm md:text-base text-gray-400 max-w-xs text-left font-mono">
+                        <p className="text-sm md:text-base text-white-400 max-w-xs text-left font-mono">
                             {t('hero.systemStatus')}<br />
                             {t('hero.tagline')}
                         </p>
