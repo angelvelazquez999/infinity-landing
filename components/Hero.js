@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import { useRef, useMemo } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
-import { EffectComposer, Bloom, Noise } from "@react-three/postprocessing";
-import * as THREE from "three";
-import { motion } from "framer-motion";
-import { useLanguage } from "../context/LanguageContext";
+import { useRef, useMemo } from 'react';
+import { Canvas, useFrame } from '@react-three/fiber';
+import { EffectComposer, Bloom, Noise } from '@react-three/postprocessing';
+import * as THREE from 'three';
+import { motion } from 'framer-motion';
+import { useLanguage } from '../context/LanguageContext';
 
 // Vertex Shader
 const vertexShader = `
@@ -143,7 +143,7 @@ export default function Hero() {
             </div>
             <div className="flex text-center border rounded-full px-[clamp(2.5rem,7vw,10rem)] py-5 bg-[#6F15E6]">
               <h1 className="text-[clamp(1.6rem,12vw,6rem)] leading-[0.8] tracking-tighter text-white font-outfit select-none">
-                {"<Technology>"}
+                {'<Technology>'}
               </h1>
             </div>
             <div className="flex text-center border rounded-full px-[clamp(1.5rem,6vw,3rem)] py-5 bg-[#000000]">
@@ -153,12 +153,12 @@ export default function Hero() {
             </div>
             <div className="flex flex-col md:flex-row items-center justify-between w-full border-t border-white/20 pt-6 mt-6">
               <p className="text-sm md:text-base text-white-400 max-w-xs text-left font-mono">
-                {t("hero.systemStatus")}
+                {t('hero.systemStatus')}
                 <br />
-                {t("hero.tagline")}
+                {t('hero.tagline')}
               </p>
               <p className="text-sm md:text-base text-white tracking-widest uppercase mt-4 md:mt-0">
-                {t("hero.scroll")}
+                {t('hero.scroll')}
               </p>
             </div>
           </div>

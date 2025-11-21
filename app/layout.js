@@ -14,9 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} ${outfit.variable}`}>
       <body className="antialiased bg-[#000000] text-white min-h-screen selection:bg-cyan-500/30">
-        <LanguageProvider>
-          {children}
-        </LanguageProvider>
+        <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>
   );
