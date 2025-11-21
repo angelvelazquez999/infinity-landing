@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const outfit = Outfit({ subsets: ['latin'], variable: '--font-outfit' });
 
 export const metadata = {
-  title: 'Infinity | Future Software Solutions',
+  title: 'The Technology Co.',
   description: 'Cutting-edge software solutions for the modern era.',
 };
 
