@@ -37,4 +37,4 @@ Current rules
 For manually formatting, please install
 [ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [Prettier extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-Added workflow
+Added workflow test
